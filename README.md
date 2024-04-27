@@ -5,13 +5,13 @@
 
 <p align="center">
 
- <a href="#"><img title="JITOSSA" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="AKHMIR" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
 </p>
 
 <p align="center">
 
-<a href="https://github.com/Omarcharaf1"><img title="Author" src="https://img.shields.io/badge/AUTHOR-Omar !-green.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Akhmir-office/Akhmir-office"><img title="Author" src="https://img.shields.io/badge/AKHMIR&OFFICE !-green.svg?style=for-the-badge&logo=github"></a>
 <br>
 <img src="https://komarev.com/ghpvc/?username=Omarcharaf&color=brightgreen" />
 
@@ -21,8 +21,7 @@
 
 ## ```Connect With Me```
 
-<a href="https://api.whatsapp.com/send?phone=212670941551&text=hello+Omar"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-<a href="https://instagram.com/ovmar_1"><img src="https://img.shields.io/badge/Connect on instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+: https://whatsapp.com/dl/
 
 
 
@@ -32,7 +31,7 @@
 ``` 
 1. Heroku Account
 2. A WhatsApp Number
-3. Orises Code (jitossaSession)
+3. Orises Code (AKHMIR-OFFICE)
 4. upload cards json to JitossaSession
 5. creat new app heroku
 6. and sign with github
@@ -44,16 +43,13 @@
 # SETUP 
 
 1. Fork The JITOSSA Repository 
-<a href="https://github.com/Omarcharaf1/JITOSSA/fork">
+<a href="https://https://github.com/Akhmir-office/Akhmir-office/fork">
 <img title="Jitossa bot"  src="https://img.shields.io/badge/FORK JITOSSA-h?color=orange&style=for-the-badge&logo=stackshare"></a>
 
-2. GET creds.json
 
-   <a href='https://replit.com/@aomarcharaf20/JITOSSA-CODE' target="_blank"><img alt='PAIRE CODE HERE' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+   
 
- 
-
-3. Deploy Direct on Heroku
+2. Deploy Direct on Heroku
 
  <a href='https://dashboard.heroku.com/new-app' target="_blank">
 <img alt='Deploy Heroku' src='https://img.shields.io/badge/deploy heroku-000?style=for-the-badge&logo=heroku&logoColor=white'/></a>
@@ -62,7 +58,7 @@
 -----------
 dev 
 
-<a href="https://github.com/Omarcharaf"><img src="https://github.com/Omarcharaf1.png" width="200" height="200" alt="OMAR-7"/></a>
+<a href="https://github.com/Akhmir-office/Akhmir-office"><img src="https://github.com/Akhmir-office/Akhmir-office" width="200" height="200" alt="OMAR-7"/></a>
 
 -
 THANK YOU 🧚🏼‍♀️
