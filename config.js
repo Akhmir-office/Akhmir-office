@@ -11,20 +11,20 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['212670941551', 'Omar !', true],
+  ['212670941551', 'Ahmed !', true],
 ];
 
-global.suittag = ['212670941551'];
-global.prems = ['212670941551'];
+global.suittag = ['212780823341'];
+global.prems = ['212780823341'];
 
-global.packname = 'JITOOSA';
+global.packname = 'AKHMIR-OFFICE';
 global.author = 'by';
-global.wm = 'JITOSSA';
-global.titulowm = 'JITOSSA';
-global.titulowm2 = `OMAR`
-global.igfg = 'JITISSA';
-global.wait = '> _جاري معالجة طلبك حاول الإنتظار ..._\n\n لاتنسى دعم المطور بالمتابعة فى الإنستجرام \n*_instagram.com/ovmar_1_*';
-global.rwait = '🙋🏻‍♀️';
+global.wm = 'AKHMIR-OFICE';
+global.titulowm = 'AKHMIR-OFFICE';
+global.titulowm2 = `AHMED`
+global.igfg = 'AKHMIR-OFFICE';
+global.wait = '> _جاري معالجة طلبك حاول الإنتظار من فظلڪ ..._\n\n لاتنسى دعم المطور بالمتابعة فى الإنستجرام وشڪرا \n*_instagram.com/akh_mir_*';
+global.rwait = '🖤';
 
 global.mods = [];
 
@@ -37,14 +37,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nJITOSSA`;
-global.gt = 'JITOSSA';
-global.mysticbot = 'JITOSSA';
-global.md = 'https://github.com/Omarcharaf1/JITOSSA';
-global.mysticbot = 'https://github.com/omarcharaf1/JITOSSA';
-global.waitt = '> 🕒 سيتم الرد على سؤالك قريبًا.';
-global.waittt = '|🧚‍♀️| *جاري توليد الصورة الخاصة بك*';
-global.nomorown = '212670941551';
+global.wm2 = `${dia} ${fecha}\nAKHMIR-OFFICE`;
+global.gt = 'AKHMIR-OFFICE';
+global.mysticbot = 'AKHMIR-OFFICE';
+global.md = 'https://github.com/Akhmir-office/Akhmir-office';
+global.mysticbot = 'https://github.com/Akhmir-office/Akhmir-office';
+global.waitt = '> 🕒 سيتم الرد على سؤالڪ في اقرب وقت.';
+global.waittt = '|🧚‍♀️| *جاري توليد الصورة الخاصة بك يا صديقي*';
+global.nomorown = '212780823341';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
