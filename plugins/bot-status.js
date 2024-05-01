@@ -1,4 +1,4 @@
-//Credit for https://github.com/GataNina-Li/GataBot-MD & https://github.com/AzamiJs/CuriosityBot-MD
+//Credit for https://github.com/AKHMIR-OFFICE/AKHMIR-OFFICE & https://github.com/AzamiJs/AKHMIR-MD
 
 import { performance } from 'perf_hooks'
 import osu from 'node-os-utils'
@@ -30,7 +30,7 @@ let _ramTotal = (ramTotal + ' MB')
 let neww = performance.now()
         
 
-var txt = `🚩 *Estado*
+var txt = `🚩 *ولاية*
 
 *OS* : ${OS}
 *CPU Model* : ${cpuModel}
@@ -47,7 +47,7 @@ conn.relayMessage(m.chat, { extendedTextMessage:{ text: txt, contextInfo: { exte
 console.log(OS)
 } catch (e) {
 console.log(e)
-conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, fake, )}
+conn.reply(m.chat, '🚩 *حدث فشل*', m, fake, )}
 
 }
 handler.help = ['estado', 'status']
