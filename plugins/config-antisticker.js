@@ -13,7 +13,7 @@ if (global.opts) {
 if (isAdmin || !isBotAdmin){		  
 } else{
 
-conn.reply(m.chat, '🚩 *En este chat no estan permitidos los stickers*', m, fake, ) 
+conn.reply(m.chat, '🚩 *الملصقات غير مسموح بها في هذه الدردشة*', m, fake, ) 
 conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 
 } return true
