@@ -10,14 +10,14 @@ if (new Date() - user.pc < 86400000) return
 await conn.reply(m.chat, `👋 Hola ${nombre}!!
  *${saludo}*
 
-📅 Fecha: ${fecha}
-⏰ Hora: ${tiempo}
+📅 تاريخ: ${fecha}
+⏰ وقت: ${tiempo}
 
-⚠️ *Nota:* no envíe spam al bot
-🧃 Escriba *.menu* para mostrar el menú 
+⚠️ *يستخدم:* لا ترسل بريدًا عشوائيًا إلى الروبوت
+🧃 الكاتب *.menu* لإظهار menú 
   
-📝 ¿Quieres apoyar este proyecto para que siga actualizándose? únete a nuestro grupo: 
-*https://chat.whatsapp.com/EfWlxyVXlZ7AWVJ6sjJvyI*`, m, fake, )
+📝 ¿هل تريد دعم هذا المشروع حتى يستمر في التحديث؟ انضم لمجموعتنا: 
+*https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc*`, m, fake, )
 
 
 user.pc = new Date * 1
