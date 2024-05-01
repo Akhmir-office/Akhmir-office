@@ -8,20 +8,23 @@ let mime = (q.msg || q).mimetype || q.mediaType || ''
 if (/image/g.test(mime) && !/webp/g.test(mime)) {
 let buffer = await q.download()
 
-conn.sendPresenceUpdate('composing', m.chat)
+await m.reply(wait)
 
 let media = await (uploader)(buffer)
 let json = await (await fetch(`https://aemt.me/bardimg?url=${media}&text=${text}`)).json()
 
 conn.sendMessage(m.chat, { text: json.result }, { quoted: m })
 
-} else return conn.reply(m.chat, `*🎌 Manda una imagen con el comando y el texto a buscar*\n\nEjemplo, !bardimg dame información sobre lo que aparece en la imagen`, m, fake, )
-
+} else throw `*قم بالرد على الصورة التي تريد أن أقرأ محتواها*\n\nمثال\n${usedPrefix + command} أعطني معلومات عن الصورة المرسلة`
+  
 }
-handler.help = ['bardimg']
-handler.tags = ['ai']
-handler.command = /^(bardimg|bardimage)$/i
+handler.help = ['bardimg', 'geminiimg']
+handler.tags = ['herramientas']
+handler.command = /^(geminiimg|geminiimage|geminimg|geminimage|bardimg)$/i
 
 handler.limit = true
 
 export default handler
+
+
+//wa.me/212780823341
