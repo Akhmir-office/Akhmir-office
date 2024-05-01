@@ -15,3 +15,17 @@
 5. GitHub https://github.com/Akhmir-office/Akhmir-office
 
 
+
+### `▢ GRUPOS DE SOPORTE (NO DISPONIBLE)`
+
+<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(ES)_(NO_DISPONIBLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+
+<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)_(NOT AVAILABLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+
+> [ ℹ️ ] En los grupos de soporte no se permiten bots.
+
+ ### `▢ BOTS OFICIALES (INACTIVOS)`
+
+<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
