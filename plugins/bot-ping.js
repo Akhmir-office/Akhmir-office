@@ -20,20 +20,20 @@ let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
 
-let texto = `*🚀 Velocidad*
+let texto = `*🚀 سرعة*
 • ${latensi.toFixed(4)}
 
-*⏰ Actividad*
+*⏰ نشاط*
 • ${muptime}
 
 *💌 Chats*
-• ${chats.length} *Chats privados*
-• ${groups.length} *Grupos*
+• ${chats.length} *محادثات خاصة*
+• ${groups.length} *مجموعات*
 
-*💻 Servidor*
+*💻 الخادم*
 • *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
 
-conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'CURIOSITY - BOT - MD', thumbnailUrl: 'https://telegra.ph/file/6cbf9148b572711e9b000.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'akhmir - BOT - MD', thumbnailUrl: 'https://telegra.ph/file/6cbf9148b572711e9b000.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
 }
 handler.help = ['ping']
