@@ -5,7 +5,7 @@ const exec = promisify(cp.exec).bind(cp)
 
 var handler = async (m) => {
 
-conn.reply(m.chat, '🚀 Espere un momento ', m, fake, )
+conn.reply(m.chat, '🚀 انتظر لحظة ', m, fake, )
 
 let o
   
