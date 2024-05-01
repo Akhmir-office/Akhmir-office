@@ -4,19 +4,19 @@ let name = conn.getName(who)
 const pp = './storage/logos/Menu2.jpg'
 
 let love = `╭━━━━━━━◇x◇━━━━━━━╮
-┃ • *LOVE - CURIOSITYBOT* 🪷
+┃ • *الحب - CURIOSITYBOT* 🪷
 ┣━━━━━━━◇x◇━━━━━━━╯
 ┃ ┌─────⊱◈◈◈⊰─────
-┃ ┃🚩 Nombre: ${name}
-┃ ┃💞 Amor Por Ti Es: *${Math.floor(Math.random() * 100)}%* De *100%*
+┃ ┃🚩 إسم: ${name}
+┃ ┃💞 الحب لك هو: *${Math.floor(Math.random() * 100)}%* De *100%*
 ┃ └─────⊱◈◈◈⊰─────
 ╰━━━━━━━◇x◇━━━━━━━╯
 
-❤️ Hay Amor, ¿debes pedirle matrimonio?`
+❤️ هناك حب، هل يجب أن تتقدم لها؟?`
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
-//conn.reply(m.chat, `*🚩 Error Del Sistema*`, m, fake, )
+//conn.reply(m.chat, `*🚩 خطأ في النظام*`, m, fake, )
 
 }
 handler.help = ['love']
