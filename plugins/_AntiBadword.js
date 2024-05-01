@@ -16,20 +16,20 @@ export async function before(m, { isAdmin, isBotAdmin }) {
     if (chat.antiToxic && isAntiToxic) {
         var analysisResult = await Analyze(m.text)
         var toxicityLevels = [
-            "❤️  ❤️  ❤️  ❤️  ❤️", // Very friendly and welcoming
-            "☠️  ❤️  ❤️  ❤️  ❤️", // Mildly toxic, is it fun?
-            "☠️  ☠️  ❤️  ❤️  ❤️", // A bit toxic, calm down!
-            "☠️  ☠️  ☠️  ❤️  ❤️", // Quite toxic, you can relax!
-            "☠️  ☠️  ☠️  ☠️  ❤️", // Highly toxic, be careful!
-            "☠️  ☠️  ☠️  ☠️  ☠️"   // Extremely toxic!
+            "❤️  ❤️  ❤️  ❤️  ❤️", // ودود للغاية وترحاب
+            "☠️  ❤️  ❤️  ❤️  ❤️", // سامة إلى حد ما، هل هي ممتعة?
+            "☠️  ☠️  ❤️  ❤️  ❤️", //سامة بعض الشيء، اهدأ!
+            "☠️  ☠️  ☠️  ❤️  ❤️", // سامة جدًا، يمكنك الاسترخاء!
+            "☠️  ☠️  ☠️  ☠️  ❤️", // شديدة السمية، كن حذرا!
+            "☠️  ☠️  ☠️  ☠️  ☠️"   // سامة للغاية!
         ];
         var toxicityVerdict = [
-            "You are so friendly. Very welcoming to know you!",
-            "You are not too toxic, is it fun?",
-            "You appear to be toxic. Calm down!",
-            "Don't be so toxic. You can relax!",
-            "There's nothing more I could say, you're totally the most toxic person in the world!",
-            "Your toxic meter also goes above 100%."
+            "أنت ودود للغاية. مرحب جدًا بمعرفتك!",
+            "أنت لست سامًا جدًا، هل هذا ممتع؟?",
+            "يبدو أنك سام. إهدئ!",
+            "لا تكن سامًا جدًا. يمكنك الاسترخاء!",
+            "لا يوجد شيء آخر يمكنني قوله، أنت أكثر شخص سام في العالم!",
+            "مقياس السموم الخاص بك يتجاوز 100٪ أيضًا."
         ];
 
         const toxicityPercentage = Number(analysisResult.toxicity * 100).toFixed(2)
@@ -48,12 +48,12 @@ export async function before(m, { isAdmin, isBotAdmin }) {
             toxicityIndex = 5
         }
 
-        var caption = `*[ TOXIC STRENGTH ]*\n\n${toxicityLevels[toxicityIndex]}\n${toxicityVerdict[toxicityIndex]}\n`
+        var caption = `*[ القوة السامة ]*\n\n${toxicityLevels[toxicityIndex]}\n${toxicityVerdict[toxicityIndex]}\n`
         
-        await this.reply(m.chat, `*Bad Words Detected!*\n ${caption} ${isBotAdmin ? '' : '\n\n_Bot is not admin_'}`, m)
+        await this.reply(m.chat, `*تم اكتشاف الكلمات السيئة!*\n ${caption} ${isBotAdmin ? '' : '\n\n_Bot is not admin_'}`, m)
 
         if (isBotAdmin) {
-            // Remove the participant from the group
+            // قم بإزالة المشارك من المجموعة
             global.db.data.users[m.sender].warn += 1
             return this.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: messageId, participant: removeParticipant }})
         } 
@@ -65,8 +65,8 @@ async function Analyze(text) {
     try {
         const result = await axios.post("https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key=AIzaSyDh6d2S3S4zOuZSgyySRcnj8uZMNJ6kdFQ", {
             comment: {
-                text: text,
-                type: 'PLAIN_TEXT'
+                text:'نص,
+                type: 'نص عادي'
             },
             languages: ['en'],
             requestedAttributes: { SEVERE_TOXICITY: {}, INSULT: {} }
