@@ -7,25 +7,25 @@
 
 
 
-``` 
-1. هنا ستجد ڪل حساباتي
-2. WhatsApp wa.me/212780823341
-3. Instagram https://www.instagram.com/akh_mir_?igsh=eWhxYXhnbWxtdG1p
-4. Facebook https://www.facebook.com/profile.php?id=61556653904010
-5. GitHub https://github.com/Akhmir-office/Akhmir-office
+
+
+<p align="center">
+
+ <a href="#"><img title="AKHMIR-OFFICE" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/Akhmir-office"><img title="Author" src="https://img.shields.io/badge/AKHMIR-OFFICE !-green.svg?style=for-the-badge&logo=github"></a>
+<br>
+<img src="https://komarev.com/ghpvc/?username=AKHMIRoffice&color=brightgreen" />
+
+</p>
 
 
 
-### `▢ GRUPOS DE SOPORTE (NO DISPONIBLE)`
+## ```Connect With Me```
 
-<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(ES)_(NO_DISPONIBLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-
-<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)_(NOT AVAILABLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-
-> [ ℹ️ ] En los grupos de soporte no se permiten bots.
-
- ### `▢ BOTS OFICIALES (INACTIVOS)`
-
-<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-<a href="https://chat.whatsapp.com/GYDqlKJablyCYA7McDiNnc" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
+<a href="https://api.whatsapp.com/send?phone=212780823341&text=hello+ahmed"><img src="https://img.shields.io/badge/Connect on WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://instagram.com/akh_mir_"><img src="https://img.shields.io/badge/Connect on instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
