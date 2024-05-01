@@ -6,10 +6,9 @@ const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/b
 var handler = async(m, { conn, text, usedPrefix, command }) => {
 
 if (command == 'fakelist' || command == 'listafake') {
-let texto = `⬣ *LISTA FAKES*
+let texto = `⬣ *مزيفة ليستا*
 
-Total Fakes : 20 Fakes
-
+إجمالي المنتجات المزيفة: 20 نسخة مزيفة
 ⬡ *fakeloc*
 ⬡ *fake2img*
 ⬡ *sendurl*
@@ -46,7 +45,7 @@ conn.sendMessage(m.chat, {image: imagen1, caption: wm, mentions: [...text.matchA
 }
  
 if (command == 'sendurl') {
-let str = '*🍧 CuriosityBot-MD*'
+let str = '*🍧 akh_mir_'
 await conn.sendUrl(m.chat, str, m, { externalAdReply: { mediaType: 1, renderLargerThumbnail: true, thumbnail: imagen1, thumbnailUrl: imagen1, title: '🍓 Azami', }})
 }
 
