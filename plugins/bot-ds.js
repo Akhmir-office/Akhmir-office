@@ -6,7 +6,7 @@ import path from 'path'
 var handler = async (m, { conn, usedPrefix }) => {
 
 if (global.conn.user.jid !== conn.user.jid) {
-return conn.reply(m.chat, '🚩 *Utiliza este comando directamente en el número principal del Bot*', m, fake, )
+return conn.reply(m.chat, '🚩 *استخدم هذا الأمر مباشرة في الرقم الرئيسي للبوت*', m, fake, )
 }
 
 let chatId = m.isGroup ? [m.chat, m.sender] : [m.sender]
@@ -25,14 +25,14 @@ break
 }}}
 
 if (filesDeleted === 0) {
-await conn.reply(m.chat, '🚩 *No se encontró ningún archivo que incluya la ID del chat*', m, fake, )
+await conn.reply(m.chat, '🚩 *لم يتم العثور على ملف يتضمن معرف الدردشة*', m, fake, )
 } else {
-await conn.reply(m.chat, `🎌 *Se eliminaron ${filesDeleted} archivos de sesión*`, m, fake, )
-conn.reply(m.chat, `😸 *¡Hola! logras verme*`, m, fake, )
+await conn.reply(m.chat, `🎌 *تمت إزالتها ${filesDeleted} ملفات الجلسة*`, m, fake, )
+conn.reply(m.chat, `😸 *¡مرحبا! يمكنك رؤيتى*`, m, fake, )
 }
 } catch (err) {
-console.error('Error al leer la carpeta o los archivos de sesión:', err)
-await conn.reply(m.chat, '🚩 *Ocurrió un fallo*', m, fake, )
+console.error('خطأ في قراءة مجلد الجلسة أو الملفات:', err)
+await conn.reply(m.chat, '🚩 *حدث فشل*', m, fake, )
 }
 
 }
