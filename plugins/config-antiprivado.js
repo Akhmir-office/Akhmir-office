@@ -11,7 +11,7 @@ let user = global.db.data.users[m.sender]
 let bot = global.db.data.settings[this.user.jid] || {}
 
 if (bot.antiPrivate && !isOwner && !isROwner) {
-await m.reply(`🎌 *Hola* @${who.replace(/@.+/, '')}, *no puede usar este bot en chat privado*\n\nUnete al Grupo oficial para poder usar el bot\n${nn}`, false, { mentions: [who] })
+await m.reply(`🎌 *اولا* @${who.replace(/@.+/, '')}, *لا يمكنك استخدام هذا الروبوت في الدردشة الخاصة*\n\nUnete al Grupo oficial para poder usar el bot\n${nn}`, false, { mentions: [who] })
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'banchat')
 
 return !1
