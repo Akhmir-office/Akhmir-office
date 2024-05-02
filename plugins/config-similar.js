@@ -14,9 +14,9 @@ let sim = similarity(noPrefix, mean)
 let som = sim * 100
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let name = await conn.getName(who)
-let caption = `*🍧  Hola* @${who.split('@')[0]}
+let caption = `*🍧  أولا* @${who.split('@')[0]}
 
-Según mi sistema esa función no existe pero se parece a las siguientes funciones
+وفقًا لنظامي، هذه الوظيفة غير موجودة ولكنها تبدو مثل الوظائف التالية
 
  🌲 *${usedPrefix + mean}*
  ❄️ *Similitud:* _${parseInt(som)}%_`
