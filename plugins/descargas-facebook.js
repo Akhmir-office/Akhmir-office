@@ -7,8 +7,8 @@ let vid
 const isCommand7 = /^(facebook|fb|facebookdl|fbdl)$/i.test(command)
 
 async function reportError(e) {
-await conn.reply(m.chat, `🚩 *Ocurrió un fallo*`, m, fake, )
-console.log(`🚩 ERROR EN: ${usedPrefix + command} ⚠️\n`)
+await conn.reply(m.chat, `🚩 *حدث فشل*`, m, fake, )
+console.log(`🚩 خطأ في: ${usedPrefix + command} ⚠️\n`)
 console.log(e)
 }
   
@@ -16,25 +16,25 @@ switch (true) {
 case isCommand7:
 if (!text) return conn.reply(m.chat, `🎌 *Ingrese un enlace de facebook*\n\nEjemplo, !fb https://fb.watch/kAOXy3wf2L/?mibextid=Nif5oz`, m, fake, )
 if (!args[0].match(/www.facebook.com|fb.watch|web.facebook.com|business.facebook.com|video.fb.com/g)) return conn.reply(m.chat, '🎌 *No es un enlace válido*', m, fake, )
-await conn.reply(m.chat, '⏰ Espere un momento', m, fake, )
+await conn.reply(m.chat, '⏰ انتظر لحظة', m, fake, )
 m.react(done)
 let messageType = checkMessageType(args[0])
 let message = ''
 switch (messageType) {
 case 'groups':
-message = 'Vídeo de grupo de facebook 🚀'
+message = 'فيديو جماعي على الفيسبوك 🚀'
 break
 case 'reel':
-message = 'Vídeo de reels de facebook 🚀'
+message = 'الفيسبوك يعيد الفيديو 🚀'
 break
 case 'stories':
 message = 'Vídeo de historias de facebook 🚀'
 break
 case 'posts':
-message = 'Vídeo de publicaciones de facebook 🚀'
+message = 'فيديو قصص الفيسبوك 🚀'
 break
 default:
-message = 'Vídeo de facebook 🚀'
+message = 'فيديو الفيسبوك 🚀'
 break
 }
 try {
